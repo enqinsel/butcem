@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "butcem",
+    "slug": "butcem",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/butcem-logo.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/butcem-logo.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "usesCleartextTraffic": true,
+      "package": "com.inaftech.butcem",
+      "versionCode": 10
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "extra": {
+      "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY_HERE",
+      "eas": {
+        "projectId": "76485f92-73ec-4b55-9e2e-720bedb996b1"
+      }
+    },
+    "owner": "enqinsel"
+  }
+}
